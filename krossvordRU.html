@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Новогодний кроссворд</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #eaf6ff;
+            text-align: center;
+            padding: 20px;
+        }
+        h1 {
+            color: #d42300;
+            text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+        }
+        .crossword {
+            display: inline-block;
+            margin: 20px auto;
+            border: 2px solid #333;
+        }
+        .crossword table {
+            border-collapse: collapse;
+        }
+        .crossword td {
+            width: 40px;
+            height: 40px;
+            border: 1px solid #333;
+            text-align: center;
+            vertical-align: middle;
+            font-weight: bold;
+            font-size: 14px;
+            background-color: #fff;
+        }
+        .crossword .black {
+            background-color: #333;
+        }
+        .crossword .number {
+            font-size: 10px;
+            color: #000;
+            position: relative;
+            top: -15px;
+            left: -15px;
+        }
+        .clues {
+            max-width: 600px;
+            margin: 20px auto;
+            text-align: left;
+        }
+        .clues h2 {
+            color: #2a5c2e;
+        }
+        .clues ul {
+            padding-left: 20px;
+        }
+        .clues li {
+            margin-bottom: 8px;
+        }
+    </style>
+</head>
+<body>
+    <h1>🎄 Новогодний кроссворд 🎁</h1>
+
+    <div class="crossword">
+        <table>
+            <!-- Сетка 9×9 -->
+            <tr>
+                <td class="black"></td>
+                <td class="black"></td>
+                <td><span class="number">1</span>Ё</td>
+                <td>Л</td>
+                <td><span class="number">2</span>С</td>
+                <td class="black"></td>
+                <td><span class="number">6</span>П</td>
+                <td class="black"></td>
+                <td class="black"></td>
+            </tr>
+            <tr>
+                <td class="black"></td>
+                <td class="black"></td>
+                <td>Л</td>
+                <td>К</td>
+                <td>Н</td>
+                <td class="black"></td>
+                <td>О</td>
+                <td class="black"></td>
+                <td class="black"></td>
+            </tr>
+            <tr>
+                <td class="black"></td>
+                <td class="black"></td>
+                <td>К</td>
+                <td>А</td>
+                <td><span class="number">7</span>С</td>
+                <td>А</td>
+                <td>Д</td>
+                <td><span class="number">8</span>С</td>
+                <td class="black"></td>
+            </tr>
+            <tr>
+                <td class="black"></td>
+                <td><span class="number">3</span>Д</td>
+                <td><span class="number">4</span>М</td>
+                <td>О</td>
+                <td>Н</td>
+                <td>Е</td>
+                <td>Р</td>
+                <td>Н</td>
+                <td>Е</td>
+            </tr>
+            <tr>
+                <td>Е</td>
+                <td>Е</td>
+                <td>А</td>
+                <td>Р</td>
+                <td>Е</td>
+                <td>Ж</td>
+                <td>О</td>
+                <td>Г</td>
+                <td>Г</td>
+            </tr>
+            <tr>
+                <td>Д</td>
+                <td>Д</td>
+                <td>С</td>
+                <td>О</td>
+                <td>З</td>
+                <td class="black"></td>
+                <td>В</td>
+                <td>О</td>
+                <td>И</td>
+            </tr>
+            <tr>
+                <td>М</td>
+                <td>М</td>
+                <td>К</td>
+                <td>З</td>
+                <td class="black"></td>
+                <td class="black"></td>
+                <td><span class="number">9</span>М</td>
+                <td>Ё</td>
+                <td><span class="number">10</span>В</td>
+            </tr>
+            <tr>
+                <td><span class="number">5</span>Х</td>
+                <td>Л</td>
+                <td>О</td>
+                <td>П</td>
+                <td>У</td>
+                <td>Ш</td>
+                <td>К</td>
+                <td>А</td>
+                <td>А</td>
+            </tr>
+            <tr>
+                <td>А</td>
+                <td>Н</td>
+                <td>И</td>
+                <td class="black"></td>
+                <td class="black"></td>
+                <td class="black"></td>
+                <td class="black"></td>
+                <td class="black"></td>
+                <td>Р</td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="clues">
+        <h2>Вопросы</h2>
+        <h3>По горизонтали:</h3>
+        <ul>
+            <li><strong>1.</strong> Главное новогоднее дерево.</li>
+            <li><strong>3.</strong> Сказочный зимний волшебник.</li>
+            <li><strong>5.</strong> Шумная бумажная новогодняя игрушка.</li>
+            <li><strong>7.</strong> Транспорт Деда Мороза.</li>
+            <li><strong>9.</strong> Сладкий продукт пчёл, часто угощение в сказках.</li>
+        </ul>
+
+        <h3>По вертикали:</h3>
+        <ul>
+            <li><strong>2.</strong> Из него лепят снеговика.</li>
+            <li><strong>4.</strong> Карнавальный атрибут.</li>
+            <li><strong>6.</strong> То, что кладут под ёлку.</li>
+            <li><strong>8.</strong> Зимняя фигурка из снега.</li>
+            <li><strong>10.</strong> Сладкое лакомство из ягод или фруктов.</li>
+        </ul>
+
+        <p><em>Ответы: 1. ЁЛКА, 2. СНЕГ, 3. ДЕДМОРОЗ, 4. МАСКА, 5. ХЛОПУШКА, 6. ПОДАРОК, 7. САНИ, 8. СНЕГОВИК, 9. МЁД, 10. ВАРЕНЬЕ</em></p>
+    </div>
+
+</body>
+</html>
