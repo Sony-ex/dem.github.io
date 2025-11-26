@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🎄 Christmas Crossword</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #0a4a6e, #1e7c2a);
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+        h1 {
+            font-size: 2.4em;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.4);
+        }
+        .subtitle {
+            font-style: italic;
+            margin-bottom: 25px;
+            opacity: 0.9;
+        }
+        .crossword {
+            display: inline-block;
+            background-color: #121212;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 6px 15px rgba(0,0,0,0.5);
+        }
+        table {
+            border-collapse: collapse;
+            margin: 0 auto;
+        }
+        td {
+            width: 45px;
+            height: 45px;
+            border: 2px solid #444;
+            font-size: 18px;
+            font-weight: bold;
+            background-color: #f9f9f9;
+            color: #000;
+            position: relative;
+        }
+        td.black {
+            background-color: #333;
+        }
+        .number {
+            position: absolute;
+            top: 2px;
+            left: 3px;
+            font-size: 10px;
+            color: #d00;
+            font-weight: bold;
+        }
+        .clues {
+            max-width: 600px;
+            margin: 25px auto;
+            text-align: left;
+            background: rgba(0,0,0,0.2);
+            padding: 20px;
+            border-radius: 8px;
+        }
+        .clues h2 {
+            border-bottom: 2px solid #e5c100;
+            padding-bottom: 5px;
+            color: #ffd700;
+        }
+        .clues ul {
+            padding-left: 20px;
+        }
+        .clues li {
+            margin: 6px 0;
+        }
+        .answer-key {
+            margin-top: 20px;
+            font-size: 0.9em;
+            opacity: 0.8;
+        }
+        @media (max-width: 600px) {
+            td { width: 36px; height: 36px; font-size: 14px; }
+            .number { font-size: 8px; }
+        }
+    </style>
+</head>
+<body>
+    <h1>🎄 Christmas Crossword 🎁</h1>
+    <p class="subtitle">Solve 10 festive English words!</p>
+
+    <div class="crossword">
+        <table>
+            <!-- Row 0 -->
+            <tr>
+                <td class="black"></td>
+                <td class="black"></td>
+                <td><span class="number">1</span>S</td>
+                <td>N</td>
+                <td>O</td>
+                <td>W</td>
+                <td class="black"></td>
+                <td class="black"></td>
+                <td class="black"></td>
+                <td class="black"></td>
+            </tr>
+            <!-- Row 1 -->
+            <tr>
+                <td class="black"></td>
+                <td><span class="number">2</span>T</td>
+                <td>R</td>
+                <td>E</td>
+                <td>E</td>
+                <td class="black"></td>
+                <td class="black"></td>
+                <td class="black"></td>
+                <td class="black"></td>
+                <td class="black"></td>
+            </tr>
+            <!-- Row 2 -->
+            <tr>
+                <td><span class="number">3</span>G</td>
+                <td>I</td>
+                <td>F</td>
+                <td>T</td>
+                <td class="black"></td>
+                <td class="black"></td>
+                <td class="black"></td>
+                <td class="black"></td>
+                <td class="black"></td>
+                <td class="black"></td>
+            </tr>
+            <!-- Row 3 -->
+            <tr>
+                <td> <span class="number">4</span>S</td>
+                <td>T</td>
+                <td>A</td>
+                <td>R</td>
+                <td class="black"></td>
+                <td><span class="number">6</span>B</td>
+                <td class="black"></td>
+                <td class="black"></td>
+                <td><span class="number">8</span>E</td>
+                <td class="black"></td>
+            </tr>
+            <!-- Row 4 -->
+            <tr>
+                <td>T</td>
+                <td><span class="number">5</span>J</td>
+                <td>O</td>
+                <td>L</td>
+                <td>L</td>
+                <td>E</td>
+                <td>L</td>
+                <td class="black"></td>
+                <td>L</td>
+                <td class="black"></td>
+            </tr>
+            <!-- Row 5 -->
+            <tr>
+                <td><span class="number">7</span>W</td>
+                <td>R</td>
+                <td>E</td>
+                <td>A</td>
+                <td>T</td>
+                <td>H</td>
+                <td class="black"></td>
+                <td><span class="number">9</span>N</td>
+                <td>F</td>
+                <td class="black"></td>
+            </tr>
+            <!-- Row 6 -->
+            <tr>
+                <td>R</td>
+                <td class="black"></td>
+                <td class="black"></td>
+                <td class="black"></td>
+                <td class="black"></td>
+                <td class="black"></td>
+                <td class="black"></td>
+                <td>O</td>
+                <td class="black"></td>
+                <td><span class="number">10</span>S</td>
+            </tr>
+            <!-- Row 7 -->
+            <tr>
+                <td>E</td>
+                <td class="black"></td>
+                <td class="black"></td>
+                <td class="black"></td>
+                <td class="black"></td>
+                <td class="black"></td>
+                <td class="black"></td>
+                <td>E</td>
+                <td class="black"></td>
+                <td>L</td>
+            </tr>
+            <!-- Row 8 -->
+            <tr>
+                <td>A</td>
+                <td class="black"></td>
+                <td class="black"></td>
+                <td class="black"></td>
+                <td class="black"></td>
+                <td class="black"></td>
+                <td class="black"></td>
+                <td>L</td>
+                <td class="black"></td>
+                <td>E</td>
+            </tr>
+            <!-- Row 9 -->
+            <tr>
+                <td>T</td>
+                <td class="black"></td>
+                <td class="black"></td>
+                <td class="black"></td>
+                <td class="black"></td>
+                <td class="black"></td>
+                <td class="black"></td>
+                <td class="black"></td>
+                <td class="black"></td>
+                <td>I</td>
+            </tr>
+            <!-- Row 10 (extra for SLEIGH) -->
+            <tr>
+                <td>H</td>
+                <td class="black"></td>
+                <td class="black"></td>
+                <td class="black"></td>
+                <td class="black"></td>
+                <td class="black"></td>
+                <td class="black"></td>
+                <td class="black"></td>
+                <td class="black"></td>
+                <td>G</td>
+            </tr>
+            <tr>
+                <td class="black"></td>
+                <td class="black"></td>
+                <td class="black"></td>
+                <td class="black"></td>
+                <td class="black"></td>
+                <td class="black"></td>
+                <td class="black"></td>
+                <td class="black"></td>
+                <td class="black"></td>
+                <td>H</td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="clues">
+        <h2>Across</h2>
+        <ul>
+            <li><strong>1.</strong> White flakes from the sky</li>
+            <li><strong>3.</strong> Present under the tree</li>
+            <li><strong>5.</strong> “___ old St. Nick” (Santa’s mood)</li>
+            <li><strong>7.</strong> Circular decoration on the door</li>
+            <li><strong>9.</strong> French word for Christmas</li>
+        </ul>
+
+        <h2>Down</h2>
+        <ul>
+            <li><strong>2.</strong> Decorated evergreen plant</li>
+            <li><strong>4.</strong> Top decoration on the tree</li>
+            <li><strong>6.</strong> “Silver ___ ringing”</li>
+            <li><strong>8.</strong> Santa’s little helper</li>
+            <li><strong>10.</strong> Santa’s vehicle</li>
+        </ul>
+
+        <p class="answer-key">
+            <em>Answers: 1. SNOW, 2. TREE, 3. GIFT, 4. STAR, 5. JOLLY, 6. BELLS, 7. WREATH, 8. ELF, 9. NOEL, 10. SLEIGH</em>
+        </p>
+    </div>
+
+</body>
+</html>
