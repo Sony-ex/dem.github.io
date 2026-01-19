@@ -1,6 +1,115 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Мой блог — Шифр Цезаря</title>
+  <style>
+    body {
+      background: #f9f9fc;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color: #333;
+      line-height: 1.6;
+      padding: 20px;
+      margin: 0;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      background: white;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+    }
+
+    h1 {
+      color: #2c3e50;
+      text-align: center;
+      margin-bottom: 25px;
+    }
+
+    h2 {
+      color: #3498db;
+      margin-top: 30px;
+      border-bottom: 1px solid #eee;
+      padding-bottom: 8px;
+    }
+
+    p {
+      margin: 12px 0;
+    }
+
+    code, strong {
+      background: #f0f7ff;
+      padding: 2px 6px;
+      border-radius: 4px;
+      font-weight: bold;
+    }
+
+    .date-header {
+      text-align: center;
+      font-style: italic;
+      color: #7f8c8d;
+      margin-bottom: 20px;
+      font-size: 1.1em;
+    }
+
+    hr {
+      border: 0;
+      height: 1px;
+      background: #eee;
+      margin: 30px 0;
+    }
+
+    .note {
+      background-color: #e8f4fc;
+      padding: 12px;
+      border-left: 4px solid #3498db;
+      margin: 20px 0;
+      font-size: 0.95em;
+    }
+  </style>
+</head>
+<body>
+  <div class="date-header" id="current-date"></div>
+
+  <div class="container">
+    <h1>Решение шифров Цезаря</h1>
+
+    <h2>1. Определение ключа шифра</h2>
+    <p><strong>а.</strong> АПЕЛЬСИН → САЦЬНВЩЮ → ключ: <code>k = 18</code></p>
+    <p><strong>б.</strong> АБРИКОС → ЫЬЛГЕЙМ → ключ: <code>k = 20</code></p>
+
+    <h2>2. Расшифровка сообщений</h2>
+    <p><strong>а.</strong> ФХНЗКЧ → <strong>ПРИВЕТ</strong> (ключ k = 5)</p>
+    <p><strong>б.</strong> ЦЩЕБФ → <strong>ВЕСНА</strong> (ключ k = 20)</p>
+
+    <h2>3. Шифрование фамилии</h2>
+    <p>Фамилия: <strong>НАЗАРЕНКО</strong></p>
+    <p>Ключ: <code>10</code></p>
+    <p>Результат: <strong>ЧКСКЪПЧФШ</strong></p>
+
+    <hr>
+    <p style="text-align: center; color: #95a5a6; font-size: 0.9em;">
+      Выполнено студентом • Задание по криптографии
+    </p>
+  </div>
+
+  <script>
+    const now = new Date();
+    document.getElementById('current-date').textContent = 
+      now.toLocaleDateString('ru-RU', {
+        weekday: 'monday',
+        year: '26',
+        month: '1',
+        day: '19'
+      });
+  </script>
+</body>
+</html><!DOCTYPE html>
+<html lang="ru">
+<head>
     <little>Мой блог</little>
     <link type=“text/css” rel=“stylesheet” href=“style.css” />
   </head>
