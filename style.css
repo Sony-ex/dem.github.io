@@ -29,37 +29,16 @@
       border-bottom: 1px solid #eee;
       padding-bottom: 8px;
     }
+@font-face {
+  font-family: "Pudelinka";
+  src: url("Fonts/pudelinka.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
 
-    p {
-      margin: 12px 0;
+    p.zz {
+      font-family: "Pudelinka";
     }
 
-    code, strong {
-      background: #f0f7ff;
-      padding: 2px 6px;
-      border-radius: 4px;
-      font-weight: bold;
-    }
 
-    .date-header {
-      text-align: center;
-      font-style: italic;
-      color: #7f8c8d;
-      margin-bottom: 20px;
-      font-size: 1.1em;
-    }
-
-    hr {
-      border: 0;
-      height: 1px;
-      background: #eee;
-      margin: 30px 0;
-    }
-
-    .note {
-      background-color: #e8f4fc;
-      padding: 12px;
-      border-left: 4px solid #3498db;
-      margin: 20px 0;
-      font-size: 0.95em;
-    }
+  
